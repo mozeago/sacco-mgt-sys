@@ -24,6 +24,8 @@
 
         {{-- Styles --}}
         <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+        <link rel="stylesheet" type="text/css" href="{{asset('css/jquerydataTablesmin.css')}}">
 
         @yield('template_linked_css')
 
@@ -36,9 +38,7 @@
                     background-size: auto 100%;
                 }
             @endif
-
         </style>
-
         {{-- Scripts --}}
         <script>
             window.Laravel = {!! json_encode([
@@ -76,7 +76,10 @@
 
         {{-- Scripts --}}
         <script src="{{ mix('/js/app.js') }}"></script>
-
+        <script src="{{asset('js/jquery.dataTables.min.js')}}"></script>
+        <script src="{{asset('js/jquery.min.js')}}"></script>
+        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+        <script src="{{asset('js/datatable.js')}}"></script>
         @if(config('settings.googleMapsAPIStatus'))
             {!! HTML::script('//maps.googleapis.com/maps/api/js?key='.config("settings.googleMapsAPIKey").'&libraries=places&dummy=.js', array('type' => 'text/javascript')) !!}
         @endif

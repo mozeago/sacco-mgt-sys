@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Laravel-Auth
 
 #### Laravel-Auth is a Complete Build of Laravel 6 with Email Registration Verification, Social Authentication, User Roles and Permissions, User Profiles, and Admin restricted user management system. Built on Bootstrap 4.
@@ -1018,3 +1019,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/all-contri
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+=======
+# sacco-mgt-sys
+A system that will keep track of members daily or monthly payments(savings/repayments) through the sacco pay bill number. Allows the admin or secretary print daily payment sheet
+>>>>>>> 00da9257c2fd112afae317c320293afb9fb91453

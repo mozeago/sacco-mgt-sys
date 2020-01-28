@@ -175,6 +175,10 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        /**
+         * Mpesa Api
+         */
+        \Safaricom\Mpesa\MpesaServiceProvider::class,
 
     ],
 
@@ -232,6 +236,7 @@ return [
         'Gravatar'      => Creativeorange\Gravatar\Facades\Gravatar::class,
         'Image'         => Intervention\Image\Facades\Image::class,
         'Uuid'          => Webpatser\Uuid\Uuid::class,
+        'Mpesa'         => \Safaricom\Mpesa\MpesaServiceProvider::class,
     ],
 
 ];

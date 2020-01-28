@@ -28,6 +28,7 @@
         "laravelcollective/html": "^6.0",
         "pusher/pusher-php-server": "^4.0",
         "rap2hpoutre/laravel-log-viewer": "^1.3",
+        "safaricom/mpesa": "^1.0",
         "socialiteproviders/37signals": "^3.0",
         "socialiteproviders/generators": "^4.4",
         "socialiteproviders/instagram": "^3.0",
